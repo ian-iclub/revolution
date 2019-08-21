@@ -922,12 +922,12 @@ li:last-child {
 }
 
 .myport .portfolio {
-	width: 25%;
+	width: 33%;
 	margin-bottom: 0;
 	padding: 0;
 	margin: 0;
 	display:none;
-	float:left;
+	/* float:left; */
 	overflow:hidden;
 }
 
@@ -1016,7 +1016,7 @@ li:last-child {
 
 .works-overlay-text{
 	color: #fff;
-	font-size: 18px;
+	font-size: 13px;
 }
 
 .works-overlay-icon{
@@ -1213,7 +1213,7 @@ span.price {
 
 /* Clients */
 
-.clients{
+.arme-implementation{
 	/* background: none no-repeat scroll 0 0 #4d4d4d; */
 	background-image: url("../images/clients-bg.jpg");
 	/* padding: 40px 0 60px; */
@@ -1227,23 +1227,23 @@ span.price {
 	padding: 40px 2% 60px;
 }
 
-.clients h5 {
+.arme-implementation h5 {
     display: inline-block;
     font-size: 18px;
 }
 
-.clients p{
+.arme-implementation p{
 	font-size: 14px;
 	padding: 0;
 	color: #fff;
 	text-align:center;
 }
 
-.clients .testimonial-inner p{
+.arme-implementation .testimonial-inner p{
 	font-style: italic;
 	font-size: 18px;
 	color: #fff;
-	padding:
+	/* padding: */
 }
 
 .testimonial-inner p::before{  
