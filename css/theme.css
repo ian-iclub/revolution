@@ -927,12 +927,12 @@ li:last-child {
 }
 
 .myport .portfolio {
-	width: 33%;
+	width: 25%;
 	margin-bottom: 0;
 	padding: 0;
 	margin: 0;
 	display:none;
-	/* float:left; */
+	float:left;
 	overflow:hidden;
 }
 
