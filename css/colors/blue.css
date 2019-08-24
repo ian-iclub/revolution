@@ -167,10 +167,6 @@ a.btn-inverse:hover {
 	color: #01233F;
 }
 
-.secondary-color
-{
-	color: #4B982E;
-}
 
 .white-color
 {
@@ -291,12 +287,12 @@ span.price {
 }
 
 .carousel-indicators .active {
-  background-color: #01233F;
-  border-color: #01233F;
+  background-color: #4B982E;
+  border-color: #4B982E;
 }
 
 .carousel-indicators li {
-  border-color: #01233F;
+  border-color: #4B982E;
 }
 /* End Clients */
 
