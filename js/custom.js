@@ -102,7 +102,7 @@ $('.skills').waypoint(function() {
                 "readOnly":true,
                 'inputColor':' #ffffff',
                 'bgColor':' #f7f7f7 ',
-				'fgColor':' #00cfef ',
+				'fgColor':' #01233F ',
                 "thickness":.2,// Thickness of Skill Knobs
 				'dynamicDraw': true,
 				'draw' : function () { $(this.i).val(this.cv); }

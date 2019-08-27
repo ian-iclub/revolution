@@ -11,6 +11,11 @@
 *******Typography******
 **************************/
 
+.secondary-color
+{
+	color: #4B982E;
+}
+
 html, body {
 	font-family: 'Open Sans', sans-serif;
 	background:#ffffff;
@@ -975,7 +980,7 @@ li:last-child {
 }
 
 .img-holder img{
-    height: auto;
+    /* height: auto; */
     width: 100%;
 }
 
@@ -1016,7 +1021,7 @@ li:last-child {
 
 .works-overlay-text{
 	color: #fff;
-	font-size: 18px;
+	font-size: 13px;
 }
 
 .works-overlay-icon{
@@ -1027,6 +1032,7 @@ li:last-child {
 #single-portfolio {
   padding: 90px 0;
   position: relative;
+  /* min-height: 90vh; */
 }
 
 #single-portfolio img {
@@ -1043,7 +1049,7 @@ li:last-child {
   width: 34px;
   height: 34px;
   left: 50%;
-  color: #999;
+  color: #01233F;
   margin-left: -17px;
 }
 
@@ -1213,7 +1219,7 @@ span.price {
 
 /* Clients */
 
-.clients{
+.arme-implementation{
 	/* background: none no-repeat scroll 0 0 #4d4d4d; */
 	background-image: url("../images/clients-bg.jpg");
 	/* padding: 40px 0 60px; */
@@ -1227,23 +1233,23 @@ span.price {
 	padding: 40px 2% 60px;
 }
 
-.clients h5 {
+.arme-implementation h5 {
     display: inline-block;
     font-size: 18px;
 }
 
-.clients p{
+.arme-implementation p{
 	font-size: 14px;
 	padding: 0;
 	color: #fff;
 	text-align:center;
 }
 
-.clients .testimonial-inner p{
+.arme-implementation .testimonial-inner p{
 	font-style: italic;
 	font-size: 18px;
 	color: #fff;
-	padding:
+	/* padding: */
 }
 
 .testimonial-inner p::before{  
@@ -1304,15 +1310,15 @@ span.price {
 
 /* News */
 
-.news{
+.report{
 	padding: 60px 2% 80px;
 }
 
-.wrapper-news{
+.wrapper-report{
 	padding: 60px 0;
 }
 
-.news-content {
+.report-content {
     margin-bottom: 60px;
 }
 
