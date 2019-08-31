@@ -268,7 +268,7 @@ $('.skills').waypoint(function() {
 	// Close Portfolio Single View
 	$('#works-single-wrap').on('click', '.close-folio-item',function(event) {
 		event.preventDefault();
-		var full_url = '#works',
+		var full_url = '#fraud-detection',
 		parts = full_url.split("#"),
 		trgt = parts[1],
 		target_offset = $("#"+trgt).offset(),
@@ -295,7 +295,3 @@ $('.scroll-up').click(function() {
 	}, 600);
 	return false;
 }); 
-
-
-
-
