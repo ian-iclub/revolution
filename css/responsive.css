@@ -233,7 +233,11 @@
 			margin: 0 auto;
 			width: 100%;
 		}
-		
+
+		/* .img-holder{
+			height: auto;
+		}
+		 */
 		/* Price */
 		.wrapper-pricing .col-md-3{
 			margin: 0 auto 20px;

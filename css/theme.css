@@ -523,7 +523,7 @@ cite {
 
 .element-title h3 {
 	font-size: 20px;
-	text-transform: capitalize;
+	/* text-transform: capitalize; */
 }
 
 .typography-title h3 {
@@ -558,12 +558,17 @@ cite {
 /* About */
 
 .why-us  {
-	padding: 60px 2% 80px;
+	padding: 30px 2% 60px;
 }	
 
 .wrapper-why-us  {
 	padding: 40px 0;
 }	
+
+.wrapper-why-us p{
+    text-align: justify;
+    text-justify: inter-word;
+}
 
 .about-us h2 {
     font-size: 24px;
@@ -655,7 +660,7 @@ cite {
 
 .number {
 	font-size: 40px;
-	font-weight: 700;
+	font-weight: 100;
 	color: #fff;
 }
 
