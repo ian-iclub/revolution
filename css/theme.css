@@ -234,7 +234,11 @@ cite {
 }
 	
 .overlay {
-	background: url(../images/pattern.png);
+    /* background: url(../images/pattern.png); */
+    /* opacity:0.1; */
+/* background-color: Black; */
+/* background-color: red;
+  background-blend-mode: screen; */
 }	
 
 /*************************
