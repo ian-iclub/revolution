@@ -29,6 +29,48 @@
         .navbar-inverse .navbar-nav>.open>a:focus {
             color: #4B982E;
         } 
+
+        .single-table {
+            background: #F2F7F988;
+            background-blend-mode: overlay;
+            /* padding: 25px 15px; */
+            min-height: 400px;
+            margin-top: 2em;
+        }
+
+        .vertical-line, .vertical-line-1 {
+            border-left: 1px solid #F2F7F9;
+            min-height: 300px;
+        }
+
+        @media (max-width: 1200px) {
+            .vertical-line , .vertical-line-1{
+                min-height: 350px;
+            }
+        }
+        
+        @media (max-width: 992px) {
+            .vertical-line {
+                /* display: none; */
+                border-left: none;
+                min-height: 250px;
+                border-top: 1px solid #F2F7F9;
+            }
+            .vertical-line-o {
+                min-height: 250px;
+            }
+            .vertical-line-1 {
+                border-left: none;
+                min-height: 250px;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .vertical-line-1 {
+                border-top: 1px solid #F2F7F9;
+            }
+        }
+
     </style>
 
     <!-- Google Font -->
@@ -152,25 +194,6 @@
         </div>
     </section>
     <!-- End Slider -->
-    <style>
-        .vertical-line {
-            border-left: 1px solid #F2F7F9;
-            min-height: 350px;
-        }
-        
-        @media (max-width: 992px) {
-            .vertical-line {
-                /* display: none; */
-                border-left: none;
-                min-height: 250px;
-                border-top: 1px solid #F2F7F9;
-            }
-            .vertical-line-o {
-                min-height: 250px;
-            }
-        }
-    </style>
-
 
     <!-- About Us -->
     <section class="section-wrapper" id="about">
@@ -232,7 +255,7 @@
                         </div>
                         <div class="row">
                             <div class="wrapper-number">
-                                <div class="col-lg-3 col-md-3 vertical-line-o">
+                                <div class="col-lg-3 col-md-3 col-sm-6 vertical-line-o">
                                     <div class="number wow fadeInRight" data-wow-duration="1s" data-wow-delay="300ms">
                                         <p>Revolution</p>
                                     </div>
@@ -243,7 +266,7 @@
                                     </div>
 
                                 </div>
-                                <div class="col-lg-3 col-md-3 vertical-line">
+                                <div class="col-lg-3 col-md-3 col-sm-6 vertical-line-1">
                                     <div class="number wow fadeInRight" data-wow-duration="1s" data-wow-delay="450ms">
                                         <p>Experience</p>
                                     </div>
@@ -253,7 +276,7 @@
                                         <p style="margin-top: 1em;" class="main-color">DATA ANALYTICS</p>
                                     </div>
                                 </div>
-                                <div class="col-lg-3 col-md-3 vertical-line">
+                                <div class="col-lg-3 col-md-3 col-sm-6 vertical-line">
                                     <div class="number wow fadeInRight" data-wow-duration="1s" data-wow-delay="600ms">
                                         <p>Advance</p>
                                     </div>
@@ -263,7 +286,7 @@
                                         <p style="margin-top: 1em;" class="main-color">DATA VISUALISATION, FRAUD MANAGEMENT, CREDIT SCORING</p>
                                     </div>
                                 </div>
-                                <div class="col-lg-3 col-md-3 vertical-line">
+                                <div class="col-lg-3 col-md-3 col-sm-6 vertical-line">
                                     <div class="number wow fadeInRight" data-wow-duration="1s" data-wow-delay="750ms">
                                         <p>Longevity</p>
                                     </div>
@@ -276,10 +299,173 @@
                             </div>
                         </div>
                     </div>
+                    <div class="container">		
+                        <div class="wrapper-clients wow fadeInUp" data-wow-duration=".5s" data-wow-delay="300ms">
+                            <div class="element-title">			
+                                <div class="row">	 		
+                                    <div class="container">		
+                                        <h1 class="wow fadeInUp secondary-color" data-wow-duration=".5s" data-wow-delay="200ms">We Offer</h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Start Testimonial Slider -->
+                            <div class="carousel slide carousel-mod" data-ride="carousel" id="testimonial">
+                                <div class="carousel-inner">
+                                    <!-- Testimonial #1  -->
+                                    <div class="item active">
+                                        <div class="row">
+                                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                                <div class="single-table wow fadeInRight" data-wow-duration=".5s" data-wow-delay="100ms">
+                                                    <h4>Predictive Analytics</h4>
+                                                    <div class="price-icon">
+                                                        <i class="fa fa-long-arrow-right"></i>                                
+                                                    </div>
+                                                    <!-- <span class="price">$19/<small>m</small></span> -->
+                                                    <ul>
+                                                        <li>Data Mining</li>
+                                                        <li>Machine Learning</li>
+                                                        <li>Social Media - Text Mining</li>
+                                                        <li>Churn Prediction</li>
+                                                        <li>Fraud Detection</li>
+                                                    </ul>
+                                                    <!-- <a class="btn-price" href="#">Get This Plan</a> -->
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                                <div class="single-table wow fadeInRight" data-wow-duration=".5s" data-wow-delay="100ms">
+                                                    <h4>Business Analytics</h4>
+                                                    <div class="price-icon">
+                                                        <i class="fa fa-line-chart"></i>                                
+                                                    </div>
+                                                    <!-- <span class="price">$19/<small>m</small></span> -->
+                                                    <ul>
+                                                        <li>Interactive Dashboard</li>
+                                                        <li>Visual Discovery Analysis</li>
+                                                        <li>Real Time Mobile Analytics</li>
+                                                        <li>Customer Insights & Segmentation</li>
+                                                        <li>Risk Management</li>
+                                                    </ul>
+                                                    <!-- <a class="btn-price" href="#">Get This Plan</a> -->
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                                <div class="single-table wow fadeInRight" data-wow-duration=".5s" data-wow-delay="100ms">
+                                                    <h4>Data Management</h4>
+                                                    <div class="price-icon">
+                                                        <i class="fa fa-database"></i>                                
+                                                    </div>
+                                                    <!-- <span class="price">$19/<small>m</small></span> -->
+                                                    <ul>
+                                                        <li>Data Quality / Data Governance</li>
+                                                        <li>Data Integration & ETL-Process</li>
+                                                        <li>Data Warehousing</li>
+                                                        <li>Data Marts Development</li>
+                                                        <li>Big Data Systems</li>
+                                                    </ul>
+                                                    <!-- <a class="btn-price" href="#">Get This Plan</a> -->
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                                <div class="single-table wow fadeInRight" data-wow-duration=".5s" data-wow-delay="100ms">
+                                                    <h4>Strategic Consulting</h4>
+                                                    <div class="price-icon">
+                                                        <i class="fa fa-question"></i>                                
+                                                    </div>
+                                                    <!-- <span class="price">$19/<small>m</small></span> -->
+                                                    <ul>
+                                                        <li>Technology Needs Evaluation</li>
+                                                        <li>Optimal Tool Selection</li>
+                                                        <li>Solution Implementation</li>
+                                                        <li>Continuous Supporting Services</li>
+                                                        <li>Decision Making Support</li>
+                                                    </ul>
+                                                    <!-- <a class="btn-price" href="#">Get This Plan</a> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Testimonial #1  -->
+                                    <!-- Testimonial #2  -->
+                                    <!-- <div class="item">
+                                        <div class="row">
+                                            <div class="col-lg-3 col-md-3">
+                                                <div class="single-table wow fadeInRight" data-wow-duration="1s" data-wow-delay="300ms">
+                                                <h4>Strategic Consulting</h4>
+                                                    <div class="price-icon">
+                                                        <i class="fa fa-question"></i>                                
+                                                    </div>
+                                                    <span class="price">$19/<small>m</small></span>
+                                                    <ul>
+                                                        <li>Technology Needs Evaluation</li>
+                                                        <li>Optimal Tool Selection</li>
+                                                        <li>Solution Implementation</li>
+                                                        <li>Continuous Supporting Services</li>
+                                                        <li>Decision Making Support</li>
+                                                    </ul>
+                                                    <a class="btn-price" href="#">Get This Plan</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> -->
+                                    <!-- End Testimonial #2  -->									
+                                    <!-- Testimonial #3  -->
+                                    <!-- <div class="item">
+                                        <div class="row">
+                                            <div class="col-lg-4 col-md-4">
+                                                <div class="single-table wow fadeInRight" data-wow-duration="1s" data-wow-delay="300ms">
+                                                <h4>Starter</h4>
+                                                    <div class="price-icon">
+                                                        <i class="fa fa-paper-plane"></i>                                
+                                                    </div>
+                                                    <span class="price">$19/<small>m</small></span>
+                                                    <ul>
+                                                        <li>Up to 3 Users</li>
+                                                        <li>Max 30 items</li>
+                                                        <li>Unlimited QueriesFull </li>
+                                                        <li>Statistics</li>
+                                                        <li>Great Support</li>
+                                                    </ul>
+                                                    <a class="btn-price" href="#">Get This Plan</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>								 -->
+                                    <!-- End Testimonial #3  -->
+                                    <!-- Testimonial #3  -->
+                                    <!-- <div class="item">
+                                        <div class="row">
+                                            <div class="col-lg-4 col-md-4">
+                                                <div class="single-table wow fadeInRight" data-wow-duration="1s" data-wow-delay="300ms">
+                                                <h4>Starter</h4>
+                                                    <div class="price-icon">
+                                                        <i class="fa fa-paper-plane"></i>                                
+                                                    </div>
+                                                    <span class="price">$19/<small>m</small></span>
+                                                    <ul>
+                                                        <li>Up to 3 Users</li>
+                                                        <li>Max 30 items</li>
+                                                        <li>Unlimited QueriesFull </li>
+                                                        <li>Statistics</li>
+                                                        <li>Great Support</li>
+                                                    </ul>
+                                                    <a class="btn-price" href="#">Get This Plan</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>								 -->
+                                    <!-- End Testimonial #3  -->									
+                                </div>
+                                <!-- <ol class="carousel-indicators">
+                                    <li data-target="#testimonial" data-slide-to="0" class="active"></li>
+                                    <li data-target="#testimonial" data-slide-to="1"></li>
+                                </ol> -->
+                            </div>
+                        </div> 
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- End Facts -->
+        <!-- End Services -->
     </section>
     <!-- End Our Services -->
 
