@@ -250,7 +250,7 @@ cite {
 }
 
 .price-icon {
-    background-color: #4B982E;
+    background-color: #01233F;
 }
 
 span.price {
@@ -386,18 +386,18 @@ span.price {
 
 /* To Top */
 a.scroll-up {
-    background: none repeat scroll 0 0 #01233F;
+    background: none repeat scroll 0 0 #4B982E;
 }
 a.scroll-up i {
     color: #fff;
 }
 
 a.scroll-up:hover i {
-    color: #01233F;
+    color: #4B982E;
 }
 
 a.scroll-up:hover {
-	color: #01233F;
-	border-color: #01233F;
+	color: #4B982E;
+	border-color: #4B982E;
 }
 /* End To Top */
