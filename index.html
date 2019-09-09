@@ -28,8 +28,8 @@
         .navbar-inverse .navbar-nav>.open>a:hover,
         .navbar-inverse .navbar-nav>.open>a:focus {
             color: #4B982E;
-        } 
-
+        }
+        
         .single-table {
             background: #F2F7F988;
             background-blend-mode: overlay;
@@ -37,14 +37,16 @@
             min-height: 400px;
             margin-top: 2em;
         }
-
-        .vertical-line, .vertical-line-1 {
+        
+        .vertical-line,
+        .vertical-line-1 {
             border-left: 1px solid #F2F7F9;
             min-height: 300px;
         }
-
+        
         @media (max-width: 1200px) {
-            .vertical-line , .vertical-line-1{
+            .vertical-line,
+            .vertical-line-1 {
                 min-height: 350px;
             }
         }
@@ -64,13 +66,12 @@
                 min-height: 250px;
             }
         }
-
+        
         @media (max-width: 767px) {
             .vertical-line-1 {
                 border-top: 1px solid #F2F7F9;
             }
         }
-
     </style>
 
     <!-- Google Font -->
@@ -111,8 +112,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="navbar-header">
-                                <button type="button" class="navbar-toggle" data-toggle="collapse"
-                                    data-target=".navbar-collapse">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
@@ -126,8 +126,7 @@
                                     <li><a href="#services">Services</a></li>
                                     <!-- <li><a href="#works">Products</a></li> -->
                                     <li class="nav-item dropdown">
-                                        <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                             Products
                                         </a>
                                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -175,33 +174,91 @@
                     <div class="item">
                         <!-- Change Image -->
                         <div class="caption">
-                            <h1 class="animated fadeInLeftBig" style="font-size:60px"><strong>Discounts</strong></h1>
-                            <p class="animated fadeInRightBig">Do you want to offer invoice discounting <br> but fear
-                                the fraud associated with it?
-                            </p>
-                            <a data-scroll class="learn-more animated fadeInUpBig" href="#about">Get one now</a>
+                            <h1 class="animated fadeInLeftBig" style="font-size:60px"><strong>Our Services</strong></h1>
+                            <p class="animated fadeInRightBig">Service can often lighten your burdens</p>
+                            <a data-scroll class="learn-more animated fadeInUpBig" style="background-color: #01233F; color: #F2F7F9" href="#services">Try them now</a>
                         </div>
                     </div>
                     <div class="item">
                         <!-- Change Image -->
                         <div class="caption">
-                            <h1 class="animated fadeInLeftBig" style="font-size:60px"><strong>Checking for
-                                    fraud</strong></h1>
-                            <p class="animated fadeInRightBig">Are you struggling with manual checking of invoices for
-                                fraud?
+                            <h1 class="animated fadeInLeftBig" style="font-size:60px"><strong>Our Products</strong></h1>
+                            <p class="animated fadeInRightBig">Quality is an investment in the future</p>
                             </p>
-                            <a data-scroll class="learn-more animated fadeInUpBig" href="#about">Don't sweat it</a>
+                            <a data-scroll class="learn-more animated fadeInUpBig" style="background-color: #01233F; color: #F2F7F9" href="#works">See More</a>
                         </div>
                     </div>
                     <div class="item">
                         <!-- Change Image -->
                         <div class="caption">
-                            <h1 class="animated fadeInLeftBig" style="font-size:60px"><strong>Risks?</strong></h1>
-                            <p class="animated fadeInRightBig">Would you like to take calculated risks when purchasing
-                                invoices?
-                            </p>
-                            <a data-scroll class="learn-more animated fadeInUpBig" href="#about">No pressure</a>
+                            <h1 class="animated fadeInLeftBig" style="font-size:60px"><strong>Contact Us</strong></h1>
+                            <p class="animated fadeInRightBig">Feel free to reach us</p>
+                            <a data-scroll class="learn-more animated fadeInUpBig" style="background-color: #01233F; color: #F2F7F9" href="#contacts">Don't sweat it</a>
                         </div>
+                    </div>
+
+                </div>
+                <a class="left-control" href="#home-slider" style="background-color: #01233F; color: #F2F7F9" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+                <a class="right-control" href="#home-slider" style="background-color: #01233F; color: #F2F7F9" data-slide="next"><i class="fa fa-angle-right"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- End Slider -->
+    <style>
+        .vertical-line {
+            border-left: 1px solid #F2F7F9;
+            min-height: 350px;
+        }
+        
+        @media (max-width: 992px) {
+            .vertical-line {
+                /* display: none; */
+                border-left: none;
+                min-height: 250px;
+                border-top: 1px solid #F2F7F9;
+            }
+            .vertical-line-o {
+                min-height: 250px;
+            }
+        }
+    </style>
+
+
+    <!-- About Us -->
+    <section class="section-wrapper" id="about">
+        <div class="about-us">
+            <div class="why-us">
+                <div class="container">
+                    <div class="row">
+                        <!-- Block Title -->
+                        <div class="section-title wow fadeInUp" data-wow-duration="1s" data-wow-delay="300ms">
+                            <h1><span>About Us</span></h1>
+                        </div>
+                        <div class="element-title wow fadeInDown" data-wow-duration="1s" data-wow-delay="300ms">
+                            <h1>Why Choose Us ?</h1>
+                            <h3><span class="main-color">Revolution analytics</span> is a start up in Kenya and a subsidiary of <span><a style="color: #4B982E"
+                                        href="https://www.smartdata-analytics.de/">Smart Data Analytics</a></span> based in Germany </h3>
+                        </div>
+                        <!-- End Block Title -->
+                        <!-- About Us Icons -->
+                        <div class="wrapper-why-us">
+                            <div class="col-lg-4 col-sm-4 wow fadeInDown" data-wow-duration="1s" data-wow-delay="300ms">
+                                <i class="hovicon effect-1 sub-a"><b class="fa fa-user-o"></b></i>
+                                <h2>WHO WE ARE</h2>
+                                <p> We offer data science consultancy services mainly in financial services. Our solutions are tailored to ensure that they fit with and align to the clients’ organisational goals and objectives.</p>
+                            </div>
+                            <div class="col-lg-4 col-sm-4 wow fadeInDown" data-wow-duration="1s" data-wow-delay="450ms">
+                                <i class="hovicon effect-1 sub-a"><b class="fa fa-eye"></b></i>
+                                <h2>OUR VISION</h2>
+                                <p>Make Africa the GO TO for outsourcing of Data Science solution development.</p>
+                            </div>
+                            <div class="col-lg-4 col-sm-4 wow fadeInDown" data-wow-duration="1s" data-wow-delay="600ms">
+                                <i class="hovicon effect-1 sub-a"><b class="fa fa-bullseye"></b></i>
+                                <h2>OUR MISSION</h2>
+                                <p>Empowering data driven decision making for sustainable financial development of enterprises whilst providing mentorship and real-life experience opportunities in the data science space.</p>
+                            </div>
+                        </div>
+                        <!-- End About Us Icons -->
                     </div>
                 </div>
                 <a class="left-control" href="#home-slider" data-slide="prev"><i class="fa fa-angle-left"></i></a>
@@ -223,10 +280,8 @@
                         </div>
                         <div class="element-title wow fadeInDown" data-wow-duration="1s" data-wow-delay="300ms">
                             <h1>Why Choose Us ?</h1>
-                            <h3><span class="main-color">Revolution analytics</span> is a start up in Kenya and a
-                                subsidiary of <span><a style="color: #4B982E"
-                                        href="https://www.smartdata-analytics.de/">Smart Data Analytics</a></span> based
-                                in Germany </h3>
+                            <h3><span class="main-color">Revolution analytics</span> is a start up in Kenya and a subsidiary of <span><a style="color: #4B982E"
+                                        href="https://www.smartdata-analytics.de/">Smart Data Analytics</a></span> based in Germany </h3>
                         </div>
                         <!-- End Block Title -->
                         <!-- About Us Icons -->
@@ -234,9 +289,7 @@
                             <div class="col-lg-4 col-sm-4 wow fadeInDown" data-wow-duration="1s" data-wow-delay="300ms">
                                 <i class="hovicon effect-1 sub-a"><b class="fa fa-user-o"></b></i>
                                 <h2>WHO WE ARE</h2>
-                                <p> We offer data science consultancy services mainly in financial services. Our
-                                    solutions are tailored to ensure that they fit with and align to the clients’
-                                    organisational goals and objectives.</p>
+                                <p> We offer data science consultancy services mainly in financial services. Our solutions are tailored to ensure that they fit with and align to the clients’ organisational goals and objectives.</p>
                             </div>
                             <div class="col-lg-4 col-sm-4 wow fadeInDown" data-wow-duration="1s" data-wow-delay="450ms">
                                 <i class="hovicon effect-1 sub-a"><b class="fa fa-eye"></b></i>
@@ -246,9 +299,7 @@
                             <div class="col-lg-4 col-sm-4 wow fadeInDown" data-wow-duration="1s" data-wow-delay="600ms">
                                 <i class="hovicon effect-1 sub-a"><b class="fa fa-bullseye"></b></i>
                                 <h2>OUR MISSION</h2>
-                                <p>Empowering data driven decision making for sustainable financial development of
-                                    enterprises whilst providing mentorship and real-life experience opportunities in
-                                    the data science space.</p>
+                                <p>Empowering data driven decision making for sustainable financial development of enterprises whilst providing mentorship and real-life experience opportunities in the data science space.</p>
                             </div>
                         </div>
                         <!-- End About Us Icons -->
@@ -281,8 +332,7 @@
                                     <div class="number wow fadeInRight" data-wow-duration="1s" data-wow-delay="300ms">
                                         <p>Revolution</p>
                                     </div>
-                                    <div class="number-title wow fadeInDown" data-wow-duration="1s"
-                                        data-wow-delay="300ms">
+                                    <div class="number-title wow fadeInDown" data-wow-duration="1s" data-wow-delay="300ms">
                                         We change how you see your data
                                         <p style="text-transform: none; margin-top: 1em;"> - through - </p>
                                         <p style="margin-top: 1em;" class="main-color">TRAINING AND AWARENESS</p>
@@ -293,8 +343,7 @@
                                     <div class="number wow fadeInRight" data-wow-duration="1s" data-wow-delay="450ms">
                                         <p>Experience</p>
                                     </div>
-                                    <div class="number-title wow fadeInDown" data-wow-duration="1s"
-                                        data-wow-delay="450ms">
+                                    <div class="number-title wow fadeInDown" data-wow-duration="1s" data-wow-delay="450ms">
                                         We show what your data can do for you
                                         <p style="text-transform: none; margin-top: 1em;"> - using - </p>
                                         <p style="margin-top: 1em;" class="main-color">DATA ANALYTICS</p>
@@ -304,34 +353,30 @@
                                     <div class="number wow fadeInRight" data-wow-duration="1s" data-wow-delay="600ms">
                                         <p>Advance</p>
                                     </div>
-                                    <div class="number-title wow fadeInDown" data-wow-duration="1s"
-                                        data-wow-delay="600ms">
+                                    <div class="number-title wow fadeInDown" data-wow-duration="1s" data-wow-delay="600ms">
                                         We help you move your business to the next level
                                         <p style="text-transform: none; margin-top: 1em;"> - with - </p>
-                                        <p style="margin-top: 1em;" class="main-color">DATA VISUALISATION, FRAUD
-                                            MANAGEMENT, CREDIT SCORING</p>
+                                        <p style="margin-top: 1em;" class="main-color">DATA VISUALISATION, FRAUD MANAGEMENT, CREDIT SCORING</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-6 vertical-line">
                                     <div class="number wow fadeInRight" data-wow-duration="1s" data-wow-delay="750ms">
                                         <p>Longevity</p>
                                     </div>
-                                    <div class="number-title wow fadeInDown" data-wow-duration="1s"
-                                        data-wow-delay="750ms">
+                                    <div class="number-title wow fadeInDown" data-wow-duration="1s" data-wow-delay="750ms">
                                         We enable you get the most out of your business
                                         <p style="text-transform: none; margin-top: 1em;"> - utilising - </p>
-                                        <p style="margin-top: 1em;" class="main-color">MACHINE LEARNING AND PREDICTIVE
-                                            ANALYTICS MODELS</p>
+                                        <p style="margin-top: 1em;" class="main-color">MACHINE LEARNING AND PREDICTIVE ANALYTICS MODELS</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="container">		
+                    <div class="container">
                         <div class="wrapper-clients wow fadeInUp" data-wow-duration=".5s" data-wow-delay="300ms">
-                            <div class="element-title">			
-                                <div class="row">	 		
-                                    <div class="container">		
+                            <div class="element-title">
+                                <div class="row">
+                                    <div class="container">
                                         <h1 class="wow fadeInUp secondary-color" data-wow-duration=".5s" data-wow-delay="200ms">We Offer</h1>
                                     </div>
                                 </div>
@@ -346,7 +391,7 @@
                                                 <div class="single-table wow fadeInRight" data-wow-duration=".5s" data-wow-delay="100ms">
                                                     <h4>Predictive Analytics</h4>
                                                     <div class="price-icon">
-                                                        <i class="fa fa-random"></i>                                
+                                                        <i class="fa fa-random"></i>
                                                     </div>
                                                     <!-- <span class="price">$19/<small>m</small></span> -->
                                                     <ul>
@@ -363,7 +408,7 @@
                                                 <div class="single-table wow fadeInRight" data-wow-duration=".5s" data-wow-delay="100ms">
                                                     <h4>Business Analytics</h4>
                                                     <div class="price-icon">
-                                                        <i class="fa fa-line-chart"></i>                                
+                                                        <i class="fa fa-line-chart"></i>
                                                     </div>
                                                     <!-- <span class="price">$19/<small>m</small></span> -->
                                                     <ul>
@@ -380,7 +425,7 @@
                                                 <div class="single-table wow fadeInRight" data-wow-duration=".5s" data-wow-delay="100ms">
                                                     <h4>Data Management</h4>
                                                     <div class="price-icon">
-                                                        <i class="fa fa-database"></i>                                
+                                                        <i class="fa fa-database"></i>
                                                     </div>
                                                     <!-- <span class="price">$19/<small>m</small></span> -->
                                                     <ul>
@@ -397,7 +442,7 @@
                                                 <div class="single-table wow fadeInRight" data-wow-duration=".5s" data-wow-delay="100ms">
                                                     <h4>Strategic Consulting</h4>
                                                     <div class="price-icon">
-                                                        <i class="fa fa-question"></i>                                
+                                                        <i class="fa fa-question"></i>
                                                     </div>
                                                     <!-- <span class="price">$19/<small>m</small></span> -->
                                                     <ul>
@@ -411,6 +456,7 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        <!-- </div> -->
                                     </div>
                                     <!-- End Testimonial #1  -->
                                     <!-- Testimonial #2  -->
@@ -435,7 +481,7 @@
                                             </div>
                                         </div>
                                     </div> -->
-                                    <!-- End Testimonial #2  -->									
+                                    <!-- End Testimonial #2  -->
                                     <!-- Testimonial #3  -->
                                     <!-- <div class="item">
                                         <div class="row">
@@ -481,14 +527,14 @@
                                             </div>
                                         </div>
                                     </div>								 -->
-                                    <!-- End Testimonial #3  -->									
+                                    <!-- End Testimonial #3  -->
                                 </div>
                                 <!-- <ol class="carousel-indicators">
                                     <li data-target="#testimonial" data-slide-to="0" class="active"></li>
                                     <li data-target="#testimonial" data-slide-to="1"></li>
                                 </ol> -->
                             </div>
-                        </div> 
+                        </div>
                     </div>
                 </div>
             </div>
@@ -524,16 +570,14 @@
                             <div class="news-content wow fadeInLeft" data-wow-duration="1s" data-wow-delay="300ms">
                                 <div class="entry-header">
                                     <div class="blog-image">
-                                        <a href="product-arme.html"><img alt="" src="images/our-products.png"
-                                                class="img-responsive"></a>
+                                        <a href="product-arme.html"><img alt="" src="images/our-products.png" class="img-responsive"></a>
                                     </div>
                                 </div>
                                 <div class="entry-content">
                                     <!-- <ul class="entry-meta">
                                         <li><a href="#"><i class="fa fa-user"></i> By: Admin <span>/</span></a></li>
                                     </ul> -->
-                                    <p>ARME implementation includes implementation of a fraud detection module,
-                                        reporting module and many more... </p> <a href="product-arme.html">Show
+                                    <p>ARME implementation includes implementation of a fraud detection module, reporting module and many more... </p> <a href="product-arme.html">Show
                                         more...</a>
                                 </div>
                             </div>
@@ -567,10 +611,7 @@
                             <div class="row">
                                 <div class="col-6">
                                     <div class="mapouter">
-                                        <div class="gmap_canvas"><iframe id="gmap_canvas"
-                                                src="https://maps.google.com/maps?q=aly's%20center&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-                                                style="width: 100%; height:500px;"></iframe></div>
+                                        <div class="gmap_canvas"><iframe id="gmap_canvas" src="https://maps.google.com/maps?q=aly's%20center&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="width: 100%; height:500px;"></iframe></div>
                                     </div>
                                 </div>
                             </div>
@@ -580,22 +621,19 @@
                                 <div class="wrapper-contacts">
                                     <div class="contact_form">
                                         <div class="row">
-                                            <div class="col-sm-4 wow fadeInRight" data-wow-duration="1s"
-                                                data-wow-delay="300ms" style="padding-bottom: 20px;">
+                                            <div class="col-sm-4 wow fadeInRight" data-wow-duration="1s" data-wow-delay="300ms" style="padding-bottom: 20px;">
                                                 <i class="fa fa-map-marker"></i>
                                                 <div class="row" style="color: white">4th Floor Aly‘s Centre </div>
                                                 <div class="row" style="color: white">Junction Muthithi/ Mpaka Road
                                                 </div>
                                             </div>
-                                            <div class="col-sm-4 wow fadeInRight" data-wow-duration="1s"
-                                                data-wow-delay="450ms" style="padding-bottom: 20px;">
+                                            <div class="col-sm-4 wow fadeInRight" data-wow-duration="1s" data-wow-delay="450ms" style="padding-bottom: 20px;">
                                                 <i class="fa fa-mobile-phone"></i>
                                                 <div class="row" style="color: white">Managing Director: Diana Okado
                                                 </div>
                                                 <div class="row" style="color: white">+254 724615355</div>
                                             </div>
-                                            <div class="col-sm-4 wow fadeInRight" data-wow-duration="1s"
-                                                data-wow-delay="600ms" style="padding-bottom: 20px;">
+                                            <div class="col-sm-4 wow fadeInRight" data-wow-duration="1s" data-wow-delay="600ms" style="padding-bottom: 20px;">
                                                 <i class="fa fa-envelope-o"></i>
                                                 <div class="row" style="color: white">Email Us:</div>
                                                 <div class="row" style="color: white">
