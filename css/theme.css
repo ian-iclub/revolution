@@ -256,7 +256,11 @@ cite {
 }
 
 .overlay {
-    background: url(../images/pattern.png);
+    /* background: url(../images/pattern.png); */
+    /* opacity:0.1; */
+    /* background-color: Black; */
+    /* background-color: red;
+  background-blend-mode: screen; */
 }
 
 
@@ -412,6 +416,29 @@ cite {
 
 /* Customization Boostrap Menu */
 
+.dropdown-toggle:focus {
+    color: white !important;
+    background: #01233F !important;
+}
+
+.dropdown-menu {
+    left: 4px !important;
+    padding: 10px !important;
+}
+
+.dropdown-item {
+    padding: 10px!important;
+    font-size: 17px !important;
+}
+
+.dropdown-content {
+    display: none !important;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block !important;
+}
+
 
 /* Main Color */
 
@@ -443,19 +470,32 @@ cite {
 
 .main-nav-list {
     font-family: 'Open Sans Condensed', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
+    font-weight: 600;
+    font-size: 17px;
     text-transform: uppercase;
+    padding-top: 12px;
 }
 
 .navbar-brand {
     display: inline-block;
     vertical-align: middle;
-    width: 160px;
-    height: 50px;
+    width: 230px;
+    height: 75px;
     margin-left: 20px;
     margin-right: 30px;
-    max-width: 160px;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    -o-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.scroll-fixed-navbar .navbar-brand {
+    opacity: 1;
+    -webkit-transition: all 0.6s ease-in-out 0s;
+    -moz-transition: all 0.6s ease-in-out 0s;
+    -o-transition: all 0.6s ease-in-out 0s;
+    transition: all 0.6s ease-in-out 0s;
 }
 
 .navbar-toggle {
@@ -489,7 +529,8 @@ cite {
 .scroll-fixed-navbar {
     background-color: #fff;
     opacity: 0.97;
-    padding: 20px 0;
+    /* padding: 20px 0; */
+    padding: 5px 0;
     box-shadow: 0px 0px 5px #999;
     border-bottom: 1px solid #f0f0f0;
     -webkit-transition: all 0.5s ease-in-out 0s;
@@ -588,7 +629,7 @@ cite {
 
 .element-title h3 {
     font-size: 20px;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
 }
 
 .typography-title h3 {
@@ -622,11 +663,16 @@ cite {
 /* About */
 
 .why-us {
-    padding: 60px 2% 80px;
+    padding: 30px 2% 60px;
 }
 
 .wrapper-why-us {
     padding: 40px 0;
+}
+
+.wrapper-why-us p {
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .about-us h2 {
@@ -724,7 +770,7 @@ cite {
 
 .number {
     font-size: 40px;
-    font-weight: 700;
+    font-weight: 100;
     color: #fff;
 }
 
@@ -1410,11 +1456,11 @@ span.price {
 }
 
 .blog-image:hover img {
-    -webkit-transform: rotate(10deg) scale(1.45);
-    -moz-transform: rotate(10deg) scale(1.45);
-    -ms-transform: rotate(10deg) scale(1.45);
-    -o-transform: rotate(10deg) scale(1.45);
-    transform: rotate(10deg) scale(1.45);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 .entry-content {
@@ -1884,6 +1930,6 @@ a.scroll-up:hover {
 /* Section Onepage Nav */
 
 .section-wrapper {
-    margin-top: -90px;
-    padding-top: 85px;
+    /* margin-top: -90px; */
+    padding-top: 45px;
 }
