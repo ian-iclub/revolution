@@ -387,6 +387,29 @@ cite {
 
 /* Customization Boostrap Menu */
 
+.dropdown-toggle:focus{
+    color: white !important;
+    background: #01233F !important;
+}
+
+.dropdown-menu{
+    left: 4px !important;
+    padding: 10px !important;
+}
+
+.dropdown-item{
+    padding: 10px!important;
+    font-size: 17px !important;
+}
+
+.dropdown-content{
+    display: none !important;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block !important;
+  }
+
 /* Main Color */
 .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { 
 	background-color: #fff;
@@ -1359,11 +1382,11 @@ span.price {
 }
 
 .blog-image:hover img {
-    -webkit-transform:rotate(10deg) scale(1.45);
-    -moz-transform:rotate(10deg) scale(1.45);
-    -ms-transform:rotate(10deg) scale(1.45);
-    -o-transform:rotate(10deg) scale(1.45);
-    transform:rotate(10deg) scale(1.45);
+    -webkit-transform:scale(1.05);
+    -moz-transform:scale(1.05);
+    -ms-transform:scale(1.05);
+    -o-transform:scale(1.05);
+    transform:scale(1.05);
 }
 
 .entry-content{
