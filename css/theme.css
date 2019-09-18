@@ -1134,6 +1134,7 @@ li:last-child {
 
 .img-holder img {
     /* height: auto; */
+    /* max-height: 208px; */
     width: 100%;
 }
 
