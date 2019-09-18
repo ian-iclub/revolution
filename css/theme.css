@@ -896,7 +896,9 @@ cite {
     top: 0;
     width: 100%;
     text-transform: uppercase;
-    opacity: 0;
+    /* opacity: 0; */
+    opacity: 1;
+    top: 30%;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
     -o-transition: all .5s ease;
@@ -1128,6 +1130,11 @@ li:last-child {
 .works-overlay .img-overlay {
     height: 100%;
     width: 100%;
+}
+
+.img-holder .works-overlay {
+    opacity: 0.3;
+    filter: alpha(opacity=70);
 }
 
 .img-holder:hover .works-overlay {
