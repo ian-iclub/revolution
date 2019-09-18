@@ -355,7 +355,7 @@ span.price {
 
 /* Footer */
 .bottom-footer {
-	border-top: 7px solid #4B982E;
+	border-top: 7px solid #01233F;
 }
 
 .bottom-footer-left p a {
@@ -363,12 +363,12 @@ span.price {
 }
 
 .bottom-social-icons li a i{
-	background-color: #4B982E;
-	border: 1px solid #4B982E;
+	background-color: #01233F;
+	border: 1px solid #01233F;
 }
 
 .bottom-social-icons li a i:hover{
-	color: #4B982E;
+	color: #01233F;
 }
 
 /* End Footer */
