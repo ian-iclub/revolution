@@ -215,6 +215,10 @@ cite {
 	background: #01233F;
 }
 
+.img-overlay:hover {
+    color: #4B982E;
+}
+
 .view-profile {
 	color:#01233F;
 }
