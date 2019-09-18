@@ -17,7 +17,10 @@ a:link, a:visited, a:hover, a:focus{text-decoration: none; color: #01233F;}
 }
 
 .learn-more {
-    border: 2px solid #01233F;
+    background-color: #01233F;
+    color:white !important;
+    transition: 2s ease;
+    /* border: 2px solid white; */
 }
 .learn-more:hover {
 	background: #01233F;
@@ -150,16 +153,16 @@ a.btn-inverse:hover {
 }
 
 .hovicon.effect-1 {
-	background: #01233F;
+	background: #4B982E;
 }
 
 .hovicon.effect-1:after {
-	box-shadow: 0 0 0 4px #01233F;
+	box-shadow: 0 0 0 4px #4B982E;
 }
 
 /* Effect 1a */
 .hovicon.effect-1.sub-a:hover {
-	background: #01233F;
+	background: #4B982E;
 }
 
 .main-color
@@ -250,7 +253,7 @@ cite {
 }
 
 .price-icon {
-    background-color: #01233F;
+    background-color: #4B982E;
 }
 
 span.price {
