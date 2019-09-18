@@ -1107,6 +1107,7 @@ li:last-child {
     height: auto;
     overflow: hidden;
     position: relative;
+    padding-bottom: 50px;
 }
 
 .img-holder img {
