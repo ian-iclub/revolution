@@ -272,16 +272,23 @@ cite {
 /* Home Slider */
 
 .slide-wrap {
-    background-image: url(../images/slider/bg-1.jpg);
+    background-image: url(../images/slider/bg.jpeg);
+    /*opacity: .6;*/
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    /*box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);*/
     background-attachment: fixed;
 }
 
 #home-slider {
     overflow: hidden;
     position: relative;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 #home-slider .caption {
@@ -820,7 +827,7 @@ cite {
 
 /* Who we are */
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0px 5px 29px -11px rgba(0,0,0,0.75);
     /*height: 20em;*/
 }
 
@@ -848,7 +855,8 @@ cite {
 .facts {
     /*background: none no-repeat scroll 0 0 #4d4d4d;*/
     /*padding: 60px 2% 100px;*/
-    background-image: url("../images/back.jpg");
+    background-image: url("../images/slider/blue.png");
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
 }
 
 .wrapper-number {
@@ -856,7 +864,7 @@ cite {
 }
 
 .wrapper-block-facts {
-    padding: 80px 2% 120px;
+    padding: 120px 2% 120px;
 }
 
 .number {
@@ -1433,7 +1441,8 @@ li:last-child {
 
 .single-table {
     /*border: 1px solid #d6d6d6;*/
-    box-shadow: 0 12px 19px rgba(255, 255, 255, 0.1) inset, 0 1px 7px rgba(0, 0, 0, 0.2);
+    /*box-shadow: 0 12px 19px rgba(255, 255, 255, 0.1) inset, 0 1px 7px rgba(0, 0, 0, 0.2);*/
+    box-shadow: 0px 14px 19px -7px rgba(0,0,0,0.75);
     padding: 25px;
 }
 
@@ -1467,7 +1476,7 @@ span.price {
 
 .single-table .btn-price,
 .sign_form input[type="submit"] {
-    box-shadow: 0 12px 19px rgba(255, 255, 255, 0.1) inset, 0 1px 7px rgba(0, 0, 0, 0.2);
+    /*box-shadow: 0 12px 19px rgba(255, 255, 255, 0.1) inset, 0 1px 7px rgba(0, 0, 0, 0.2);*/
     color: #fff;
     display: inline-block;
     margin: 45px 0 25px;
@@ -1484,13 +1493,13 @@ span.price {
     background: none repeat scroll 0 0 #fff;
 }
 
-.single-table.featured h4 {
-    color: #fff;
-}
+/*.single-table.featured h4 {*/
+/*    color: #fff;*/
+/*}*/
 
-.single-table.featured h4:first-letter {
-    color: #fff;
-}
+/*.single-table.featured h4:first-letter {*/
+/*    color: #fff;*/
+/*}*/
 
 .single-table.featured .price-icon,
 .single-table.featured .btn-price {
