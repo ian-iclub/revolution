@@ -2162,7 +2162,8 @@ a.scroll-up:hover {
 }
 
 .product-image{
-    height: 300px;
+    margin-top: 15%;
+    height: 100px;
 }
 .product-text{
     margin: auto;
@@ -2238,10 +2239,53 @@ a.scroll-up:hover {
 }
 
 .product-button a:active {
-    border-color: #FD6154;
-    color: #FD6154;
+    border-color: #4B972E;
+    color: #4B972E;
 }
 
 .product-button a:active .icon-arrow {
-    fill: #FD6154;
+    fill: #4B972E;
 }
+
+.reference-col{
+    padding-bottom: 5%;
+}
+
+.reference-image{
+    margin-top: 15%;
+    height: 150px;
+    width: 100%;
+}
+
+
+@media screen and (min-width:768px){
+    
+    #team-mobile-view{
+        display: none;
+    }
+
+    #references-mobile{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:768px){
+
+    body{
+        margin: auto;
+    }
+    .product-card{
+        margin-bottom: 5%;
+    }
+
+    #team-desktop-view{
+        display: none;
+    }
+
+    #references-desktop{
+        display: none;
+    }
+
+}
+
