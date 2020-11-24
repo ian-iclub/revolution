@@ -2257,6 +2257,10 @@ a.scroll-up:hover {
     width: 100%;
 }
 
+.reference-text h3{
+    font-family: 'Raleway', sans-serif;
+}
+
 
 @media screen and (min-width:768px){
     
