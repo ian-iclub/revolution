@@ -2168,6 +2168,7 @@ a.scroll-up:hover {
 .product-text{
     margin: auto;
     padding: 10%;
+    height: 175px;
 }
 
 .product-button{
